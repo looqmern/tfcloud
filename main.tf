@@ -2,6 +2,11 @@
 #   Example `main.tf`:
 #     # The configuration for the `remote` backend.
    terraform {
+      required_providers {
+        aws = {
+          source = "hashicorp/aws"
+        }
+      }
       backend "remote" {
 #         # The name of your Terraform Cloud organization.
         organization = "eluqs"
