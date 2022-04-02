@@ -10,6 +10,7 @@
     
      cloud {
     organization = "eluqs"
+    
     workspaces {
       name = "Github_com_Lab1"
     }
