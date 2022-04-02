@@ -10,13 +10,13 @@
     
      cloud {
     organization = "eluqs"
-
     workspaces {
       name = "Github_com_Lab1"
     }
+      token = "lRo8A5ArzS90Zw.atlasv1.q0PaoiMarT6lufOr9APvoP5GYUNbwXbZIUgEAFdjbvmmI6HzvN2tKKzzkc6SdAC2kAc"
+    }
   }
 
-   }
 #       backend "remote" {
 # #       organization = "eluqs"
 #          
